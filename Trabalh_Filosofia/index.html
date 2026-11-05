@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exposição digital sobre a resistência negra no Brasil Império (1822-1889) — Memória, Cultura e Liberdade.">
+    <title>Resistência — Memória, Cultura e Liberdade</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Reading Progress Bar -->
+    <div id="progress-bar" aria-hidden="true"></div>
+
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="#hero" class="logo" aria-label="Página Inicial">RESISTÊNCIA</a>
+            
+            <button class="mobile-menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav id="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#introducao">Contexto</a></li>
+                    <li><a href="#capoeira">Capoeira</a></li>
+                    <li><a href="#religiosidade">Religiosidade</a></li>
+                    <li><a href="#culinaria">Culinária</a></li>
+                    <li><a href="#quilombos">Quilombos</a></li>
+                    <li><a href="#poesia">Poesia Social</a></li>
+                    <li><a href="#sintese">Síntese</a></li>
+                    <li><a href="#fontes">Fontes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <img class="hero-bg" src="img/hero.jpg" alt="" loading="eager" onerror="this.remove()">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content fade-in">
+                <span class="hero-period">1822 &mdash; 1889</span>
+                <h1 class="hero-title">RESISTÊNCIA</h1>
+                <h2 class="hero-subtitle">Memória, cultura e luta pela liberdade no Brasil Império.</h2>
+                <p class="hero-text">
+                    Durante a escravidão, a população negra desenvolveu diferentes formas de resistência, 
+                    preservou tradições e construiu caminhos de luta por liberdade. Conhecer essas histórias 
+                    é compreender uma parte fundamental da formação do Brasil.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#introducao" class="btn btn-primary">Explorar a exposição</a>
+                    <a href="#linha-do-tempo" class="btn btn-secondary">Conhecer a linha do tempo</a>
+                </div>
+            </div>
+            <a href="#introducao" class="scroll-indicator" aria-label="Rolar para baixo">
+                <span>↓</span>
+            </a>
+        </section>
+
+        <!-- Introduction Section -->
+        <section id="introducao" class="editorial-section dark-bg">
+            <div class="container">
+                <div class="editorial-grid">
+                    <div class="editorial-text fade-in-up">
+                        <h2 class="section-title">A Contradição de uma Nação</h2>
+                        <p>
+                            A Independência do Brasil, declarada em 1822, trouxe autonomia política em relação a Portugal, mas manteve intacta a estrutura mais cruel do país: a escravidão. O Império foi erguido e sustentado pelo trabalho de pessoas africanas e afro-brasileiras.
+                        </p>
+                        <p>
+                            No entanto, a história desse período não é apenas uma narrativa de opressão. A população negra assumiu um <strong>protagonismo histórico inegável</strong>. A resistência não se limitou apenas aos confrontos diretos ou revoltas armadas; ela se manifestou profundamente na preservação da cultura, na manutenção de vínculos religiosos, na criação de redes comunitárias de apoio, na busca incessante por autonomia e na produção intelectual.
+                        </p>
+                    </div>
+                    <div class="editorial-highlight fade-in-up delay-1">
+                        <h3>Marcos de um século em disputa</h3>
+                        <ul class="highlight-dates">
+                            <li><strong>1822:</strong> Independência sem abolição.</li>
+                            <li><strong>1850:</strong> Fim do tráfico transatlântico.</li>
+                            <li><strong>1871:</strong> Lei do Ventre Livre.</li>
+                            <li><strong>1888:</strong> Lei Áurea.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section id="linha-do-tempo" class="timeline-section light-bg">
+            <div class="container">
+                <h2 class="section-title text-center fade-in-up">Cronologia do Brasil Império</h2>
+                <div class="timeline">
+                    <!-- Event 1 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">1822</h3>
+                            <h4 class="timeline-title">Independência do Brasil</h4>
+                            <p>O Brasil rompe politicamente com Portugal, consolidando-se como um Império. Contudo, as elites agrárias garantem a manutenção da escravidão como base da economia nacional.</p>
+                        </div>
+                    </div>
+                    <!-- Event 2 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">1831</h3>
+                            <h4 class="timeline-title">Lei Feijó (Proibição do Tráfico)</h4>
+                            <p>Lei que declarava livres os africanos desembarcados no Brasil. Foi amplamente ignorada pelas autoridades e proprietários de terras, gerando a expressão "lei para inglês ver".</p>
+                        </div>
+                    </div>
+                    <!-- Event 3 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">1850</h3>
+                            <h4 class="timeline-title">Lei Eusébio de Queirós</h4>
+                            <p>Proibição definitiva e repressão efetiva ao tráfico negreiro transatlântico. Isso impulsionou o tráfico interno, transferindo escravizados do Nordeste para as fazendas de café do Sudeste.</p>
+                        </div>
+                    </div>
+                    <!-- Event 4 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">1871</h3>
+                            <h4 class="timeline-title">Lei do Ventre Livre</h4>
+                            <p>Declarava livres os filhos de mulheres escravizadas nascidos a partir daquela data, embora as crianças ficassem sob a tutela dos senhores até os 8 ou 21 anos.</p>
+                        </div>
+                    </div>
+                    <!-- Event 5 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">1885</h3>
+                            <h4 class="timeline-title">Lei dos Sexagenários</h4>
+                            <p>Libertava escravizados com mais de 60 anos (idade que poucos alcançavam devido às condições extremas). Na prática, desobrigava os senhores de sustentar idosos.</p>
+                        </div>
+                    </div>
+                    <!-- Event 6 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">1888</h3>
+                            <h4 class="timeline-title">Lei Áurea</h4>
+                            <p>Abolição formal e legal da escravidão no Brasil, resultado de intensa pressão de movimentos abolicionistas, fugas em massa e revoltas da própria população negra.</p>
+                            <figure class="inline-figure">
+                                <img src="img/lei-aurea.jpg" alt="Assinatura da Lei Áurea, 1888" loading="lazy" onerror="this.closest('figure').remove()">
+                                <figcaption>Assinatura da Lei Áurea. <span class="credit">Crédito: [autor, ano, fonte]</span></figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- Event 7 -->
+                    <div class="timeline-item fade-in-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-date">1889</h3>
+                            <h4 class="timeline-title">Proclamação da República</h4>
+                            <p>Fim do Império. O novo regime, no entanto, não implementou políticas de inclusão, educação ou distribuição de terras para a população negra recém-liberta.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Capoeira -->
+        <section id="capoeira" class="editorial-section dark-bg">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="split-image fade-in-up">
+                        <!-- Simulated historical image container -->
+                        <div class="image-placeholder capoeira-bg" role="img" aria-label="Ilustração histórica de roda de capoeira">
+                            <img src="img/capoeira.jpg" alt="Roda de capoeira" loading="lazy" onerror="this.remove()">
+                        </div>
+                        <figcaption>Roda de Capoeira. A arte de lutar disfarçada de dança. <span class="credit">Crédito: Ilustração original, 2026</span></figcaption>
+                    </div>
+                    <div class="split-text fade-in-up delay-1">
+                        <h2 class="section-title">Corpo, Cultura e Resistência</h2>
+                        <h3 class="section-subtitle">A Capoeira</h3>
+                        <p>Originada a partir de tradições e rituais trazidos da África (especialmente de matriz banto), a capoeira desenvolveu-se no Brasil como uma complexa mistura de luta, dança, música e sociabilidade.</p>
+                        <p>Para a população negra — escravizada, liberta ou livre —, a prática corporal era um treinamento de autodefesa, uma forma de proteção mútua nas ruas das cidades imperiais e um espaço vital de afirmação cultural.</p>
+                        <div class="callout-box">
+                            <h4>A resistência também estava nos espaços de convivência</h4>
+                            <p>No Brasil Império, as "maltas" de capoeiristas dominavam espaços urbanos. As autoridades policiais reprimiam duramente a prática, associando-a à desordem.</p>
+                        </div>
+                        <p>É importante ressaltar que a capoeira foi violentamente perseguida durante o Império, mas sua criminalização oficial ocorreu apenas na República, com o Código Penal de 1890.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Religiosidade -->
+        <section id="religiosidade" class="editorial-section light-bg">
+            <div class="container">
+                <div class="split-layout reverse">
+                    <div class="split-image fade-in-up">
+                        <div class="image-placeholder religiao-bg" role="img" aria-label="Representação do sincretismo religioso e religiões afro-brasileiras">
+                            <img src="img/religiosidade.jpg" alt="Representação do sincretismo religioso afro-brasileiro" loading="lazy" onerror="this.remove()">
+                        </div>
+                        <figcaption>Sincretismo religioso: a fé africana preservada. <span class="credit">Crédito: Ilustração original, 2026</span></figcaption>
+                    </div>
+                    <div class="split-text fade-in-up delay-1">
+                        <h2 class="section-title">Preservação do Sagrado</h2>
+                        <h3 class="section-subtitle">Religiosidade e Sincretismo</h3>
+                        <p>Em uma sociedade onde o catolicismo era a religião oficial do Estado (Constituição de 1824) e outras práticas eram reprimidas, a manutenção da fé africana exigiu inteligência e resiliência.</p>
+                        <p>O <strong>sincretismo religioso</strong> — a associação de Orixás, Voduns e Inquices a santos católicos — não foi uma simples "mistura", mas uma sofisticada estratégia de sobrevivência. Por trás dos altares católicos, cultuava-se a ancestralidade africana.</p>
+                        <p>As religiões afro-brasileiras formaram comunidades de acolhimento (terreiros, irmandades católicas negras), onde a língua sagrada, a hierarquia, a música e o sentido de pertencimento garantiram que a identidade de diversos povos não fosse apagada.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culinária -->
+        <section id="culinaria" class="gallery-section dark-bg">
+            <div class="container">
+                <h2 class="section-title text-center fade-in-up">A Memória no Prato</h2>
+                <h3 class="section-subtitle text-center fade-in-up">Culinária Afro-brasileira</h3>
+                <p class="text-center intro-text fade-in-up">Ingredientes como o dendê, o quiabo e o feijão-fradinho, somados a saberes milenares, moldaram a identidade alimentar do Brasil.</p>
+                
+                <div class="gallery-grid">
+                    <article class="gallery-card fade-in-up">
+                        <div class="gallery-img acaraje-bg" role="img" aria-label="Acarajé frito no azeite de dendê">
+                            <img src="img/acaraje.jpg" alt="Acarajé frito no azeite de dendê" loading="lazy" onerror="this.remove()">
+                        </div>
+                        <div class="gallery-content">
+                            <h4>Acarajé e a Ancestralidade</h4>
+                            <p>Alimento sagrado nos terreiros (oferenda a Iansã), o acarajé tornou-se símbolo da cultura baiana. Seu preparo guarda segredos transmitidos por gerações de mulheres negras.</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card fade-in-up delay-1">
+                        <div class="gallery-img quitandeira-bg" role="img" aria-label="Mulheres negras vendendo alimentos nas ruas no século XIX">
+                            <img src="img/quitandeiras.jpg" alt="Mulheres negras vendendo alimentos nas ruas no século XIX" loading="lazy" onerror="this.remove()">
+                        </div>
+                        <div class="gallery-content">
+                            <h4>As Quitandeiras</h4>
+                            <p>Nas cidades do Império, mulheres negras (escravizadas e libertas) dominavam o comércio de rua de alimentos. O dinheiro das vendas, muitas vezes, financiava a compra de alforrias e o sustento familiar.</p>
+                        </div>
+                    </article>
+                    <article class="gallery-card fade-in-up delay-2">
+                        <div class="gallery-content">
+                            <h4>Autonomia e Resistência</h4>
+                            <p>Diferenciar as condições históricas é crucial: enquanto algumas trabalhavam sob ordens senhoriais ("escravas de ganho"), outras eram libertas lutando por autonomia econômica, fazendo da comida um vetor de liberdade.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quilombos e Cotidiano -->
+        <section id="quilombos" class="editorial-section light-bg">
+            <div class="container">
+                <h2 class="section-title fade-in-up">Além das Fugas</h2>
+                <h3 class="section-subtitle fade-in-up">Quilombos e Resistência Cotidiana</h3>
+                
+                <div class="text-columns fade-in-up">
+                    <p>Os <strong>quilombos</strong> representavam a ruptura física com o sistema escravista. Eram comunidades ocultas onde recriavam-se modos de vida livres. O Quilombo dos Palmares, liderado por Zumbi e Dandara, ocorreu no período colonial, mas sua memória inspirou a formação de inúmeros quilombos durante todo o Império, como o Quilombo do Jabaquara, em São Paulo, e o Quilombo de Vassouras, no Rio de Janeiro.</p>
+                    <p>Contudo, a resistência também ocorria dentro das fazendas e das cidades. A <strong>resistência cotidiana</strong> envolvia quebrar ferramentas, trabalhar em ritmo mais lento, realizar abortos para poupar filhos da escravidão, formar laços de parentesco e economizar secretamente para negociar cartas de alforria. A população negra jamais aguardou passivamente a libertação.</p>
+                </div>
+                <figure class="wide-figure fade-in-up">
+                    <div class="image-placeholder quilombo-bg" role="img" aria-label="Comunidade quilombola">
+                        <img src="img/quilombo.jpg" alt="Comunidade quilombola" loading="lazy" onerror="this.remove()">
+                    </div>
+                    <figcaption>Memória viva dos quilombos. <span class="credit">Crédito: Ilustração original, 2026</span></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Poesia Social -->
+        <section id="poesia" class="editorial-section dark-bg">
+            <div class="container">
+                <div class="split-layout">
+                    <div class="split-text fade-in-up">
+                        <h2 class="section-title">A Palavra como Denúncia</h2>
+                        <h3 class="section-subtitle">Poesia Social e Abolicionismo</h3>
+                        <p>No século XIX, a terceira geração do Romantismo brasileiro (Geração Condoreira) fez da literatura uma arma política. A <strong>poesia social</strong> denunciou as atrocidades do tráfico e a desumanização promovida pela escravidão.</p>
+                        <p><strong>Castro Alves</strong> (1847–1871), conhecido como o "Poeta dos Escravos", chocou a sociedade letrada com obras como <em>O Navio Negreiro</em>. Ele ajudou a moldar a opinião pública contra a escravidão, usando recursos literários para gerar empatia e indignação.</p>
+                        <p>A literatura aliou-se ao ativismo de intelectuais negros como Luiz Gama e José do Patrocínio, mostrando que a resistência operava tanto nas matas (quilombos) quanto nas páginas dos jornais e nos tribunais.</p>
+                    </div>
+                    <div class="split-quote fade-in-up delay-1">
+                        <figure class="portrait">
+                            <img src="img/castro-alves.jpg" alt="Retrato de Castro Alves" loading="lazy" onerror="this.closest('figure').remove()">
+                            <figcaption>Castro Alves. <span class="credit">Crédito: [autor, ano, fonte]</span></figcaption>
+                        </figure>
+                        <blockquote class="poema">
+                            "Senhor Deus dos desgraçados!<br>
+                            Dizei-me vós, Senhor Deus!<br>
+                            Se é loucura... se é verdade<br>
+                            Tanto horror perante os céus?!"
+                        </blockquote>
+                        <cite>— Castro Alves, <em>O Navio Negreiro</em> (1868)</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Síntese -->
+        <section id="sintese" class="synthesis-section light-bg">
+            <div class="container">
+                <h2 class="section-title text-center fade-in-up">Como tudo se conecta</h2>
+                <p class="text-center intro-text fade-in-up">A luta por liberdade no Brasil Império não teve apenas um formato. Ela foi um ecossistema de sobrevivência e afirmação.</p>
+                
+                <div class="synthesis-grid">
+                    <div class="synth-card fade-in-up">
+                        <h4>Capoeira</h4>
+                        <p>Defesa do corpo e sociabilidade. Enfrentava o controle policial e afirmava o domínio dos espaços urbanos.</p>
+                    </div>
+                    <div class="synth-card fade-in-up delay-1">
+                        <h4>Religiosidade</h4>
+                        <p>Defesa do espírito. Manteve laços comunitários e filosofias ancestrais vivas sob a imposição do catolicismo imperial.</p>
+                    </div>
+                    <div class="synth-card fade-in-up delay-2">
+                        <h4>Culinária</h4>
+                        <p>Defesa da memória e subsistência. Gerou autonomia financeira para compra de alforrias e preservou rituais.</p>
+                    </div>
+                    <div class="synth-card fade-in-up">
+                        <h4>Quilombos</h4>
+                        <p>Ruptura territorial. Comunidades de autonomia política e produtiva que desestabilizavam a ordem escravocrata.</p>
+                    </div>
+                    <div class="synth-card fade-in-up delay-1">
+                        <h4>Cotidiano</h4>
+                        <p>Resistência silenciosa. Sabotagens, negociações e redes de afeto dentro do coração do sistema produtivo.</p>
+                    </div>
+                    <div class="synth-card fade-in-up delay-2">
+                        <h4>Poesia Social</h4>
+                        <p>Trincheira intelectual. Mobilização da opinião pública e denúncia estética que expôs as contradições do Império.</p>
+                    </div>
+                </div>
+
+                <div class="synth-conclusion fade-in-up">
+                    <p>A Lei Áurea de 1888 encerrou a escravidão legalmente, mas a ausência de políticas de reparação perpetuou as desigualdades raciais e sociais na República. Conhecer as estratégias históricas de resistência é vital para combater o racismo estrutural que ainda reverbera no Brasil contemporâneo.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fontes e Referências -->
+        <section id="fontes" class="references-section dark-bg">
+            <div class="container">
+                <h2 class="section-title fade-in-up">Fontes e Referências</h2>
+                <div class="references-list fade-in-up">
+                    <ul>
+                        <li><a href="https://www.gov.br/arquivonacional" target="_blank" rel="noopener noreferrer">Arquivo Nacional</a> – Documentos e dossiês sobre a escravidão e resistência no Brasil.</li>
+                        <li><a href="https://www.palmares.gov.br" target="_blank" rel="noopener noreferrer">Fundação Cultural Palmares</a> – Acervo sobre cultura afro-brasileira e memória de Palmares.</li>
+                        <li><a href="http://portal.iphan.gov.br" target="_blank" rel="noopener noreferrer">IPHAN</a> – Dossiês de Registro do Patrimônio Imaterial (Roda de Capoeira e Ofício das Baianas de Acarajé).</li>
+                        <li><a href="http://bndigital.bn.gov.br" target="_blank" rel="noopener noreferrer">Biblioteca Nacional (BNDigital)</a> – Acervo literário e histórico de Castro Alves e jornais abolicionistas.</li>
+                        <li><a href="http://www.museuafrobrasil.org.br" target="_blank" rel="noopener noreferrer">Museu Afro Brasil</a> – Exposições digitais e pesquisas sobre a identidade afro-brasileira.</li>
+                    </ul>
+                </div>
+                <h3 class="credits-title fade-in-up">Créditos das imagens</h3>
+                <ul class="credits-list fade-in-up">
+                    <li>Capa e demais imagens: ilustrações originais produzidas para este trabalho, 2026.</li>
+                    <li>Capoeira: ilustração original produzida para este trabalho, 2026, uso educacional livre.</li>
+                    <li>Religiosidade: ilustração original produzida para este trabalho, 2026, uso educacional livre.</li>
+                    <li>Acarajé: ilustração original produzida para este trabalho, 2026, uso educacional livre.</li>
+                    <li>Quitandeiras: ilustração original produzida para este trabalho, 2026, uso educacional livre.</li>
+                    <li>Quilombo: ilustração original produzida para este trabalho, 2026, uso educacional livre.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Trabalho Escolar — 4º Eixo: Resistência no Brasil Império</p>
+            <p><small>Desenvolvido para fins educacionais. Imagens históricas com créditos na seção Fontes e Referências.</small></p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
